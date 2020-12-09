@@ -1,0 +1,52 @@
+.navigation{
+
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+body
+{
+  min-height: 100vh;
+  background: #150019;
+}
+.navigation
+{
+  position: fixed;
+  width: 60px;
+  height: 100px;
+  transition: 0.5s;
+  overflow: hidden;
+}
+.navigation:hover{
+  width: 300px;
+}
+.navigation ul
+{
+  position: absolute;
+  top: 0;
+  left: 0%;
+  width: 100%;
+}
+.navigation ul li{
+  position: relative;
+  width: 100%;
+  left-style: none;
+}
+.navigation ul li a{
+  position: relative;
+  display: block;
+  width: 100%;
+  display: flex;
+  text-decoration: none;
+  color: #fff;
+}
+
+
+
+
+
+
+
+
+
