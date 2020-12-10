@@ -83,14 +83,13 @@
         <div *ngIf="submitted && f.acceptTerms.errors" class="invalid-feedback">Gender is required</div>
       </div>
 
+
       <div class="form-group form-check">
         <input type="checkbox" formControlName="acceptTerms" id="Gender" class="form-check-input" [ngClass]="{ 'is-invalid': submitted && f.acceptTerms.errors }" />
         <label for="Gender" class="form-check-label">Female</label>
 
         <div *ngIf="submitted && f.acceptTerms.errors" class="invalid-feedback">Gender is required</div>
       </div>
-
-
       <div class="text-center">
         <button class="btn btn-primary mr-1">Register</button>
         <button class="btn btn-secondary" type="reset" (click)="onReset()">Cancel</button>
